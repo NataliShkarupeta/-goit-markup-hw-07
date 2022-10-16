@@ -9,7 +9,7 @@
 
 .card{
     position: relative;
-    width: calc ((100%-60px) / 3);
+    width: $width / 3;
     margin-right: 30px;
     margin-bottom: 30px;
     overflow: hidden; 
@@ -80,7 +80,7 @@
 }
 
 .card__overlay{
-    .card:hover&{
+    .card:hover &{
         transform: translatey(0);
     }
 }
