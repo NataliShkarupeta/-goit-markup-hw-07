@@ -10,12 +10,16 @@
     &-name{
         margin-top: 0;
         margin-bottom: 10px;
-    
+        font-family: 'Roboto';
+        font-style: normal;
         text-align: center;
         color: $title-text-color;
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.2 
+        line-height: 1.2; 
+        letter-spacing: 0.03em;
+
+
     }
 
     &-info{
@@ -29,11 +33,16 @@
     &-text{
         margin: 0;
         margin-bottom: 16px;
+
+        text-align: center; 
+        font-family: 'Roboto';
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.2;
-        text-align: center; 
+
+        letter-spacing: 0.03em;
+
+        color: $primery-text-color;
     }
-
-
 
 }
