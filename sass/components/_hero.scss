@@ -1,74 +1,76 @@
-.hero{
-    height: 600px; 
-    max-width: 1600px; 
+.hero {
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/backgroundfoto.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__container {
     margin-left: auto;
     margin-right: auto;
-    background-color: #2F303A;
-    background-image: linear-gradient( to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-        url(../images/backgroundfoto.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+    width: 1200px;
+    text-align: center;
+  }
 
-    &__container{
-        margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
-        text-align: center;
-    }
-
-    &__content{
-        padding-top: 200px;
+  &__content {
+    padding-top: 200px;
     padding-bottom: 200px;
-    }
+  }
 
-    &__button{
-        display: inline-block;
-    
+  &__button {
+    display: inline-block;
+
     border-radius: 4px;
-    border:  1px solid transparent;
+    border: 1px solid transparent;
     padding: 10px 32px;
     cursor: pointer;
 
     background-color: $accent-color;
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: inherit;
-   
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-    transition: text-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    }
+    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-    &__button-name{
-        font-weight: 700;
+  &__button-name {
+    font-weight: 700;
     font-size: 16px;
-    line-height: 2.0;
+    line-height: 2;
     align-items: center;
     letter-spacing: 0.06em;
-    }
+  }
 
-    &__title{
-        margin-top: 0;
-        margin-bottom: 30px;
-    
-        color:  #FFFFFF;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.4;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        max-width: 696px;
-        margin-left: auto;
-        margin-right: auto; 
-    }
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;
 
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.hero__button{
-    &:hover, &:focus{
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
-    }
+.hero__button {
+  &:hover,
+  &:focus {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }

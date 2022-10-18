@@ -1,29 +1,27 @@
-.command{
-    padding-top: 0;
-    background-color: #F5F4FA;
+.command {
+  padding-top: 0;
+  background-color: #f5f4fa;
 
-    &__list{
-        margin-top: 0;
-        margin-bottom: 0; 
+  &__list {
+    margin-top: 0;
+    margin-bottom: 0;
 
-        display: flex;
-        padding-left: 0;
-    }
+    display: flex;
+    padding-left: 0;
+  }
 
-    &__container{
-
+  &__container {
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
     padding-top: 94px;
     padding-bottom: 94px;
-    } 
+  }
 
-    &__info{
-        padding-top: 30px;
-        padding-bottom: 30px;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);  
-    }
-
-
+  &__info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
 }
